@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {    
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.imgmenu {
+        
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;    
+}
+.menu {    
+    width: 15%;
+    background-color: rgb(255, 208, 0);
+    padding: 10px 20px 0px;    
+}
+.menu a {    
+    display: block;
+    padding: 6px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #02374d;
+    font-size: large;        
+}
+.menu a:hover {
+    background-color: #eb0000;
+    color: white;
+    transition: background .8s;
+}
+.menu a.active{    
+    background-color: #049cD8;
+    color: white;
+}
+.header {
+    background-color: #eb0000;
+    min-height: 150px;
+}
+.content {
+    font-family: "Roboto", sans-serif;
+    background-color: #ebe7e9;
+    min-height: 570px;
+    max-height: 570px;
+    padding: 20px;    
+}
+.tabela-horario{
+    max-width: 600px;
+    display: block;
+    margin: auto;    
+}
+.tabela-horario fieldset{
+    max-width: 600px;
+    border-radius: 20px;  
+}
+.content tr:nth-child(even) {
+    background-color:#049cD8;
+}
+.content tr {
+    text-align: center;
+}
+.title-content{
+    font-size: 40px;
+    font-weight: 350;
+    color: #211a21;
+}
+.title2-content{
+    font-size: 40px;
+    font-weight: 400;
+    color: #4f43ae;
+}
+.content p {
+text-align: left;
+}
+
+.atuacao img{
+    margin-top: -30px;
+    width: 150px;    
+    padding: 50px;
+}
+.atuacao-texto span{    
+    width: auto;  
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 450;
+    color: #4f43ae;    
+}
+#contact-page {
+    display: flex;
+}
+.contato {
+    margin: 0;
+}
+.contato fieldset{
+    max-width: 200px;
+    border-radius: 20px;  
+}
+.map {
+    padding-left: 50px;
+}
+.footer-sobre {
+    display: flex;
+    justify-content: center;  
+}
+.footer-sobre img {
+    width: 250px;
+}
+.footer {
+    display: inline;
+    padding-left: 2%;
+    padding-top: 2%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    background-color: #049cD8;
+    color: white;
+    min-height: 150px;
+}
+.end-footer {
+    float: left;
+    
+}
+.end-footer2 {
+    float: right;
+    padding-right: 2%;
+}
